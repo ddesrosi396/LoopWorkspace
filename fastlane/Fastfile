@@ -130,6 +130,10 @@ platform :ios do
 
     gym(
       export_method: "development",
+      export_options: {
+      	provisioningProfiles: {
+		"com.#{TEAMID}.loopkit.Loop2" => "match Development "com.#{TEAMID}.loopkit.Loop2""
+	}
       scheme: "LoopWorkspace",
       output_name: "Loop.ipa",
       configuration: "Release",
