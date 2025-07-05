@@ -134,7 +134,7 @@ platform :ios do
       configuration: "Release",
       destination: 'generic/platform=iOS',
       buildlog_path: 'buildlog',
-      export_method: "development",
+      export_method: "app-store",
       export_options: {
       	provisioningProfiles: {
 		"com.2A8T7CJ6X8.loopkit.Loop2" => "match Development com.2A8T7CJ6X8.loopkit.Loop2"
